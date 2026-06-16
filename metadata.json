@@ -1,0 +1,8 @@
+{
+  "name": "Al Jisr Academy",
+  "description": "Premium online Arabic and English Language Academy offering live interactive classes for children, teenagers, and adults globally.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
