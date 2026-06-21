@@ -88,9 +88,9 @@ export default function Navbar({
             <Phone className="w-3 h-3 text-sky-500" />
             <span className="hidden sm:inline font-medium">WhatsApp Support:</span> <span className="font-mono text-gray-700 font-semibold">+92 3322044423</span>
           </a>
-          <a href="mailto:harismawh@gmail.com" className="flex items-center gap-1 hover:text-sky-600 transition" id="util-link-mail">
+          <a href="mailto:aljisracademy@gmail.com" className="flex items-center gap-1 hover:text-sky-600 transition" id="util-link-mail">
             <Mail className="w-3 h-3 text-sky-500" />
-            <span className="hidden sm:inline font-medium">Email Desk:</span> <span className="font-mono text-gray-700">harismawh@gmail.com</span>
+            <span className="hidden sm:inline font-medium">Email Desk:</span> <span className="font-mono text-gray-700">aljisracademy@gmail.com</span>
           </a>
         </div>
         <div className="flex items-center gap-4">

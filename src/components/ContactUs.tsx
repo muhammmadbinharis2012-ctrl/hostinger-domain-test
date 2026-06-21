@@ -97,7 +97,7 @@ export default function ContactUs() {
 
               {/* Email Desk */}
               <a 
-                href="mailto:harismawh@gmail.com" 
+                href="mailto:aljisracademy@gmail.com" 
                 className="flex items-center gap-4 p-4 bg-gray-50 hover:bg-gray-100/80 border rounded-2xl transition group"
                 id="email-desk-shortcut"
               >
@@ -106,7 +106,7 @@ export default function ContactUs() {
                 </div>
                 <div>
                   <span className="text-[10px] uppercase font-mono tracking-wider font-bold text-sky-600 block">Email Admissions</span>
-                  <span className="font-sans font-extrabold text-gray-900 text-sm sm:text-base font-mono">harismawh@gmail.com</span>
+                  <span className="font-sans font-extrabold text-gray-900 text-sm sm:text-base font-mono">aljisracademy@gmail.com</span>
                 </div>
               </a>
 

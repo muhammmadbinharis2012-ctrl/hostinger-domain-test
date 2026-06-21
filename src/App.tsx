@@ -46,7 +46,11 @@ export default function App() {
     if (saved) {
       const parsed = JSON.parse(saved);
       if (parsed.some((t: Teacher) => t.id.startsWith('teacher-'))) {
-        return parsed;
+        // Keep default pre-seeded profiles updated with latest static additions or name corrections, while preserving custom manual entries
+        return parsed.map((t: Teacher) => {
+          const matchedStatic = DEFAULT_TEACHERS.find(dt => dt.id === t.id);
+          return matchedStatic ? matchedStatic : t;
+        });
       }
     }
     return DEFAULT_TEACHERS;

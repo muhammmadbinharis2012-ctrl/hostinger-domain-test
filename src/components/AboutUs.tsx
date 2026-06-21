@@ -26,7 +26,7 @@ export default function AboutUs({ onNavigate }: AboutUsProps) {
     {
       icon: Award,
       title: 'Qualified Teachers',
-      desc: 'Native Arab linguists and certified Western ESL specialists holding advanced degrees from top academic institutions.'
+      desc: 'Skilled Arabic linguists and experienced English language professionals dedicated to delivering high-quality language and communication services.'
     },
     {
       icon: Users,
@@ -51,12 +51,12 @@ export default function AboutUs({ onNavigate }: AboutUsProps) {
     {
       icon: TrendingUp,
       title: 'Progress Tracking',
-      desc: 'Monthly report cards specifying diagnostic scores, vocabulary growth patterns, and customized educator tips.'
+      desc: 'Systematic monthly progress reports presenting diagnostic assessment results, vocabulary development trajectories, and individualized pedagogical recommendations to support targeted instruction and measurable learner growth.'
     },
     {
       icon: Gem,
       title: 'Affordable Rates',
-      desc: 'High academic standard without premium burden. Flat modular subscriptions fitting all household budgets.'
+      desc: 'High academic standards delivered through flexible, accessible modular subscription plans for every household budget.'
     },
     {
       icon: Sparkles,
@@ -83,7 +83,10 @@ export default function AboutUs({ onNavigate }: AboutUsProps) {
                 Founded on the pillars of depth, authenticity, and digital elegance, <strong>Al Jisr Academy</strong> ("The Bridge") was built to solve a crucial global problem: finding elite Arabic and English linguistic education that respects cultural values while meeting world-class pedagogical systems.
               </p>
               <p>
-                We recognize that modern children and busy professionals cannot be expected to thrive in passive, boring prerecorded lectures. Language requires active, synchronous dialogue. Our platform integrates state-of-the-art interactive teaching whiteboards, native fluent tutors, and detailed custom curriculums.
+                We recognize that modern children and busy professionals cannot be expected to thrive in passive, boring prerecorded lectures. Language requires active, synchronous dialogue.
+              </p>
+              <p>
+                Our platform brings together expert language mentors, interactive live sessions, personalized learning support, and research-based curricula that transform language learning into an engaging and effective experience.
               </p>
               <p className="border-l-2 border-sky-500 pl-4 py-1.5 italic bg-sky-50/50 rounded-r-lg text-gray-700">
                 "Our mission is to enable global students to speak Arabic with elegant pronunciation and master English with ultimate clarity—all from a foundation of mutual trust and academic rigor."
@@ -95,8 +98,8 @@ export default function AboutUs({ onNavigate }: AboutUsProps) {
             <div className="aspect-video sm:aspect-[4/3] rounded-3xl overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-950 shadow-2xl relative border border-slate-800">
               <div className="absolute inset-0 bg-transparent" />
               <div className="absolute bottom-6 left-6 right-6 text-white text-center sm:text-left">
-                <p className="text-xs font-bold tracking-widest uppercase text-sky-400 font-mono">ESTABLISHED 2021</p>
-                <h3 className="font-extrabold text-lg sm:text-xl mt-1 leading-tight text-white/95">Live synchronized education spanning 40+ countries.</h3>
+                <p className="text-xs font-bold tracking-widest uppercase text-sky-400 font-mono">ESTABLISHED 2025</p>
+                <h3 className="font-extrabold text-lg sm:text-xl mt-1 leading-tight text-white/95">Live synchronized education connecting learners across the globe.</h3>
               </div>
             </div>
             
@@ -118,7 +121,7 @@ export default function AboutUs({ onNavigate }: AboutUsProps) {
               Why Parents and Professionals Choose Our Academy
             </h2>
             <p className="text-gray-500 text-sm mt-3 font-sans">
-              We focus on premium visual interaction, native language tutors, and strict progress reviews—creating an online environment comparable to top brick-and-mortar schools.
+              We are committed to excellence through interactive learning experiences, dedicated language professionals, and structured performance tracking—providing a world-class online education that matches the quality of top-tier academic institutions.
             </p>
           </div>
 

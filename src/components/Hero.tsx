@@ -50,7 +50,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                   <Users className="w-5 h-5" />
                 </div>
                 <div className="text-center sm:text-left">
-                  <span className="block text-lg font-bold text-gray-900">5,000+</span>
+                  <span className="block text-lg font-bold text-gray-900">500+</span>
                   <span className="text-[11px] uppercase tracking-wider text-gray-400 font-semibold font-mono">Students</span>
                 </div>
               </div>

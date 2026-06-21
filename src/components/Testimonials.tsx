@@ -113,22 +113,10 @@ export default function Testimonials({ testimonials }: TestimonialsProps) {
           <p className="text-xs font-mono font-bold uppercase tracking-widest text-sky-400 mb-2">Our Global Impact</p>
           <h3 className="text-2xl sm:text-3xl font-extrabold max-w-xl mx-auto leading-snug">Where Al Jisr Academy coordinates speak from</h3>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-10">
+          <div className="flex justify-center mt-10">
             <div>
-              <span className="block text-3xl sm:text-4xl font-extrabold text-white font-mono">USA & CAN</span>
-              <span className="text-[11px] uppercase tracking-wider text-gray-400 mt-1 font-semibold block">48% of Students</span>
-            </div>
-            <div>
-              <span className="block text-3xl sm:text-4xl font-extrabold text-white font-mono">UNITED KINGDOM</span>
-              <span className="text-[11px] uppercase tracking-wider text-gray-400 mt-1 font-semibold block">26% of Students</span>
-            </div>
-            <div>
-              <span className="block text-3xl sm:text-4xl font-extrabold text-white font-mono">MIDDLE EAST</span>
-              <span className="text-[11px] uppercase tracking-wider text-gray-400 mt-1 font-semibold block">18% of Students</span>
-            </div>
-            <div>
-              <span className="block text-3xl sm:text-4xl font-extrabold text-white font-mono">GLOBAL REST</span>
-              <span className="text-[11px] uppercase tracking-wider text-gray-400 mt-1 font-semibold block">8% of Students</span>
+              <span className="block text-3xl sm:text-4xl font-extrabold text-white font-mono uppercase">GLOBAL WORLD</span>
+              <span className="text-[11px] uppercase tracking-wider text-gray-400 mt-1 font-semibold block">100% of Students</span>
             </div>
           </div>
         </div>

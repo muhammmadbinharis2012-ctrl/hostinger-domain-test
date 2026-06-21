@@ -266,35 +266,47 @@ export const DEFAULT_TEACHERS: Teacher[] = [
   },
   {
     id: 'teacher-02',
-    name: 'Sadia',
+    name: 'Sadia Sheikh',
     photoUrl: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400',
     qualifications: [
-      'BA in Arabic Language & Literature',
-      'Ijazah in Tajweed & Quranic Recitation Rules (Sanad)',
-      'Advanced Certificate in Teaching Arabic as a Second Language'
+      'Masters in Islamic Studies & Arabic',
+      'Expertise in Early Childhood language Acquisition'
     ],
     experience: '10 Years',
-    biography: 'An esteemed educator with a decade of expertise, Teacher Sadia blends traditional scholastic eloquence with modern digital methods. She excels in teaching Arabic dialogue, classical eloquence, and guiding students in precise Quranic Tajweed rules.',
+    biography: 'An esteemed educator with a decade of expertise, Teacher Sadia Sheikh blends traditional scholastic eloquence with modern digital methods. She excels in teaching Arabic dialogue, classical eloquence, and guiding students in precise Quranic Tajweed rules.',
     specialties: ['Quranic Arabic', 'Tajweed Rules', 'Arabic Conversation', 'Arabic for Women & Children'],
     isActive: true
   },
   {
+    id: 'teacher-06',
+    name: 'Humaira Hussain',
+    photoUrl: '',
+    qualifications: [
+      'Masters in Islamic Studies & Arabic',
+      'Expertise in Early Childhood language Acquisition'
+    ],
+    experience: '5 Years',
+    biography: 'Teacher Humaira Hussain is an accomplished educator specializing in Arabic study and early childhood linguistic mentorship. With five years of dedicated experience, she blends master-level academic insights with highly active, family-friendly methods to support every learner’s journey.',
+    specialties: ['Islamic Studies', 'Arabic Grammar', 'Bilingual Education', 'Early Language Acquisition'],
+    isActive: true
+  },
+  {
     id: 'teacher-03',
-    name: 'Momina',
+    name: 'Ama Tul Momin Mominah',
     photoUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400',
     qualifications: [
-      'BA in Applied Linguistics',
+      'Masters in Islamic Studies & Arabic',
       'Certified Online Quran and Arabic Educator',
-      'Diploma in Early Childhood Language Acquisition'
+      'Expertise in Early Childhood language Acquisition'
     ],
     experience: '3 Years',
-    biography: 'Teacher Momina is a highly vibrant Arabic and Quranic tutor known for active learning games, custom interactive visuals, and kid-friendly phonics. She works closely with children and absolute beginners to make learning fun and rewarding.',
+    biography: 'Teacher Ama Tul Momin Mominah is a highly vibrant Arabic and Quranic tutor known for active learning games, custom interactive visuals, and kid-friendly phonics. She works closely with children and absolute beginners to make learning fun and rewarding.',
     specialties: ['Arabic for Beginners', 'Arabic Reading & Writing', 'Arabic for Children', 'Phonics & Speech'],
     isActive: true
   },
   {
     id: 'teacher-04',
-    name: 'Umer Abdullah',
+    name: 'Umer Abdullah Ahmed',
     photoUrl: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=400',
     qualifications: [
       'BA in Islamic Jurisprudence & Arabic Studies',
@@ -302,7 +314,7 @@ export const DEFAULT_TEACHERS: Teacher[] = [
       'Professional Diploma in Arabic Rhetoric'
     ],
     experience: '2.5 Years',
-    biography: 'Teacher Umer Abdullah specializes in high-engagement conversation clinics, grammar patterns, and standard spoken Arabic. His structured, highly supportive tutoring approach helps teenagers and young adults build strong vocabulary roots fast.',
+    biography: 'Teacher Umer Abdullah Ahmed specializes in high-engagement conversation clinics, grammar patterns, and standard spoken Arabic. His structured, highly supportive tutoring approach helps teenagers and young adults build strong vocabulary roots fast.',
     specialties: ['Arabic for Teens', 'Standard Spoken Arabic', 'Arabic Grammar (Nahw)', 'Vocabulary Integration'],
     isActive: true
   },

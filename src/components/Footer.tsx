@@ -134,7 +134,7 @@ export default function Footer({ onNavigate, onOpenAdmin }: FooterProps) {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-sky-400 flex-shrink-0" />
-                <span className="font-mono text-gray-300">harismawh@gmail.com</span>
+                <span className="font-mono text-gray-300">aljisracademy@gmail.com</span>
               </li>
             </ul>
           </div>
