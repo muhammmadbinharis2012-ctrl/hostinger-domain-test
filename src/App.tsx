@@ -38,7 +38,14 @@ export default function App() {
   // 2. Persistent CMS Data States (Loaded from localStorage or fallback to defaults)
   const [courses, setCourses] = useState<Course[]>(() => {
     const saved = localStorage.getItem('aljisr_courses');
-    return saved ? JSON.parse(saved) : DEFAULT_COURSES;
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      return parsed.map((c: Course) => {
+        const matchedStatic = DEFAULT_COURSES.find(dc => dc.id === c.id);
+        return matchedStatic ? matchedStatic : c;
+      });
+    }
+    return DEFAULT_COURSES;
   });
 
   const [teachers, setTeachers] = useState<Teacher[]>(() => {

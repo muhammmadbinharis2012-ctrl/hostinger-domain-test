@@ -18,7 +18,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Understand basic greeting protocols and greetings.',
       'Count numbers, list colors, and use simple daily vocabulary.'
     ],
-    duration: '12 Weeks (24 Classes)',
+    duration: '6 Months',
     level: 'Beginner (A1)',
     ageGroup: 'All',
     price: '$65 / month',
@@ -35,7 +35,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Identify critical grammatical structures specific to Classical Arabic.',
       'Read and recite Quranic verses with direct semantic understanding.'
     ],
-    duration: '16 Weeks (32 Classes)',
+    duration: '6 Months',
     level: 'Intermediate (B1)',
     ageGroup: 'All',
     price: '$75 / month',
@@ -52,7 +52,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Spell complex sounds, including hamzas and weak letters accurately.',
       'Draft formal letters and direct short paragraphs.'
     ],
-    duration: '8 Weeks (16 Classes)',
+    duration: '6 Months',
     level: 'Beginner to Intermediate',
     ageGroup: 'Children',
     price: '$60 / month',
@@ -69,7 +69,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Master proper stress, intonation, and native rhythms.',
       'Order food, book flights, and navigate Arab cities confidently.'
     ],
-    duration: '10 Weeks (20 Classes)',
+    duration: '6 Months',
     level: 'Intermediate (B1-B2)',
     ageGroup: 'Adults',
     price: '$70 / month',
@@ -86,7 +86,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Construct complex phrases with conditional and emphasis formulas.',
       'Prevent common logical mistakes in formal speaking.'
     ],
-    duration: '14 Weeks (28 Classes)',
+    duration: '6 Months',
     level: 'Advanced (C1)',
     ageGroup: 'Teenagers',
     price: '$80 / month',
@@ -103,7 +103,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Count up to 100 and identify common household elements.',
       'Build positive psychological associations with Arabic education.'
     ],
-    duration: '16 Weeks (32 Classes)',
+    duration: '6 Months',
     level: 'Beginner (A1)',
     ageGroup: 'Children',
     price: '$55 / month',
@@ -120,7 +120,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Appreciate culturally specific jokes, proverbs, and idioms.',
       'Bridge the gap between Modern Standard Arabic and daily slang.'
     ],
-    duration: '10 Weeks (20 Classes)',
+    duration: '6 Months',
     level: 'All Levels',
     ageGroup: 'Adults',
     price: '$65 / month',
@@ -137,7 +137,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Differentiate between active and passive forms at high speeds.',
       'Prepare for standard global Arabic tests.'
     ],
-    duration: '20 Weeks (40 Classes)',
+    duration: '6 Months',
     level: 'Beginner to Advanced',
     ageGroup: 'All',
     price: '$85 / month',
@@ -156,7 +156,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Develop correct pronunciation of high-frequency English words.',
       'Listen to and comprehend slow, deliberate native speech.'
     ],
-    duration: '12 Weeks (24 Classes)',
+    duration: '6 Months',
     level: 'Beginner (A1)',
     ageGroup: 'All',
     price: '$65 / month',
@@ -173,7 +173,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Write clear, cohesive paragraphs and letters.',
       'Correct common grammar errors dynamically during conversations.'
     ],
-    duration: '14 Weeks (28 Classes)',
+    duration: '6 Months',
     level: 'Intermediate (B1-B2)',
     ageGroup: 'Teenagers',
     price: '$70 / month',
@@ -190,7 +190,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Apply standard English idioms to sound natural.',
       'Formulate fast responses without translating mentally.'
     ],
-    duration: '10 Weeks (20 Classes)',
+    duration: '6 Months',
     level: 'Intermediate to Advanced',
     ageGroup: 'Adults',
     price: '$75 / month',
@@ -207,7 +207,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Participate in fast-paced debates on political or scientific grounds.',
       'Draft highly professional emails and reports with nuanced tones.'
     ],
-    duration: '16 Weeks (32 Classes)',
+    duration: '6 Months',
     level: 'Advanced (C1-C2)',
     ageGroup: 'Adults',
     price: '$80 / month',
@@ -224,7 +224,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Express creative thoughts and tell simple bedtime stories.',
       'Prepare for English primary school curricula.'
     ],
-    duration: '16 Weeks (32 Classes)',
+    duration: '6 Months',
     level: 'Beginner (A1-A2)',
     ageGroup: 'Children',
     price: '$55 / month',
@@ -241,7 +241,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Respond to unexpected Q&A challenges with calm confidence.',
       'Control micro-gestures and body posture to project leadership.'
     ],
-    duration: '8 Weeks (16 Classes)',
+    duration: '6 Months',
     level: 'Advanced',
     ageGroup: 'All',
     price: '$85 / month',
@@ -524,50 +524,31 @@ export const FASE_INFO = {
   currency: 'USD',
   pricingModels: [
     {
-      title: 'Starter Pack',
-      price: '55',
-      frequency: 'month',
-      classes: '1 Private Class / week or 2 Group Classes',
-      idealFor: 'Casual learners or juniors looking to initiate regular habits.',
+      title: 'Group Class',
+      price: '10',
+      frequency: 'hour',
+      classes: 'Learn collaboratively with peers',
+      idealFor: 'Designed for student interaction and collective practice.',
       features: [
         'Interactive live classes',
         'Customized digital workbook',
-        'Email feedback from teachers',
         'Interactive homework access',
         'Regular progress milestones'
-      ],
-      color: 'slate'
-    },
-    {
-      title: 'Fluency Standard',
-      price: '75',
-      frequency: 'month',
-      classes: '2 Private Classes / week or 4 Group Classes',
-      idealFor: 'Most popular. Designed for steady academic escalation and spoken ease.',
-      features: [
-        'Dedicated 1-on-1 mentor matching',
-        'Custom curriculum pacing',
-        'Priority schedule flexibility',
-        'Monthly live speaking evaluation',
-        'Free attendance to global workshops',
-        'Sms/WhatsApp study reminders'
       ],
       color: 'sky',
       isPopular: true
     },
     {
-      title: 'Elite Intensive',
-      price: '135',
-      frequency: 'month',
-      classes: '4 Private Classes / week',
-      idealFor: 'High-speed learners targeting urgent professional relocations or exams.',
+      title: 'One-to-One Class',
+      price: '15',
+      frequency: 'hour',
+      classes: 'Private 1-on-1 tutoring',
+      idealFor: 'Custom speed and personalized attention with professional mentors.',
       features: [
-        'Daily speaking challenges',
-        '24/7 mentor feedback channel',
-        'Graduation certificate',
-        'Custom homework and slide generation',
-        'Lifetime community forum access',
-        'Detailed lexical weakness reports'
+        'Dedicated 1-on-1 mentor matching',
+        'Custom curriculum pacing',
+        'Priority schedule flexibility',
+        'Monthly live speaking evaluation'
       ],
       color: 'slate'
     }
