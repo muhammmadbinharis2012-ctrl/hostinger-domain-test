@@ -371,6 +371,30 @@ export default function Admissions({ courses, prefilledCourseTitle, onSubmitInqu
               </p>
             </div>
 
+            {/* Admissions Support QR Card */}
+            <div className="bg-slate-900 text-white p-6 rounded-3xl border border-slate-800 flex flex-col sm:flex-row items-center gap-5" id="admissions-qr-code-card">
+              <div className="bg-white p-2.5 rounded-xl flex-shrink-0">
+                <img 
+                  src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fwa.me%2F923322044423%3Ftext%3DHello%2520Al%2520Jisr%2520Academy" 
+                  alt="WhatsApp Admissions QR"
+                  className="w-28 h-28"
+                  referrerPolicy="no-referrer"
+                  id="admissions-qr-image"
+                />
+              </div>
+              <div className="space-y-1.5 text-center sm:text-left">
+                <span className="text-[9px] tracking-widest text-sky-400 uppercase font-mono font-bold block">
+                  ADMISSIONS WHATSAPP
+                </span>
+                <h4 className="font-extrabold text-sm sm:text-base text-white">
+                  Scan to Enroll Instantly
+                </h4>
+                <p className="text-xs text-gray-400 font-sans leading-relaxed">
+                  Have questions about trial classes or course formats? Scan this QR code to text our Registrar directly.
+                </p>
+              </div>
+            </div>
+
           </div>
 
         </div>

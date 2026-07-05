@@ -121,6 +121,30 @@ export default function ContactUs() {
                 </div>
               </div>
 
+              {/* WhatsApp QR Code card */}
+              <div className="p-5 bg-slate-50 border border-gray-200/80 rounded-2xl flex flex-col sm:flex-row items-center gap-5" id="whatsapp-qr-code-card">
+                <div className="bg-white p-2.5 rounded-xl border border-gray-150 shadow-sm flex-shrink-0">
+                  <img 
+                    src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fwa.me%2F923322044423%3Ftext%3DHello%2520Al%2520Jisr%2520Academy" 
+                    alt="WhatsApp QR Code"
+                    className="w-28 h-28"
+                    referrerPolicy="no-referrer"
+                    id="whatsapp-qr-image"
+                  />
+                </div>
+                <div className="space-y-1.5 text-center sm:text-left">
+                  <h4 className="font-sans font-extrabold text-sm text-gray-950">
+                    Scan QR to Connect Instantly
+                  </h4>
+                  <p className="text-xs text-gray-500 font-sans leading-relaxed">
+                    Open your mobile camera and scan this code to start a secure WhatsApp chat directly with our Admissions Desk.
+                  </p>
+                  <span className="inline-flex items-center gap-1.5 text-[10px] uppercase font-mono tracking-wider font-extrabold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded">
+                    ● Fast Support
+                  </span>
+                </div>
+              </div>
+
             </div>
 
             {/* Social Network Links */}

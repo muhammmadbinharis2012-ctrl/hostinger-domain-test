@@ -136,15 +136,73 @@ export default function App() {
   };
 
   // Handle Inbound Admissions Ticket Form Submissions
-  const handleNewInquiry = (inqData: Omit<AdmissionInquiry, 'id' | 'status' | 'date'>) => {
-    const freshInquiry: AdmissionInquiry = {
-      id: `inq-${Date.now()}`,
-      status: 'pending',
-      date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
-      ...inqData
-    };
-    setInquiries(prev => [freshInquiry, ...prev]);
+  const handleNewInquiry = async (
+  inqData: Omit<AdmissionInquiry, "id" | "status" | "date">
+) => {
+
+  const freshInquiry: AdmissionInquiry = {
+    id: `inq-${Date.now()}`,
+    status: "pending",
+    date: new Date().toLocaleDateString("en-US", {
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+    }),
+    ...inqData,
   };
+
+  // Keep saving to Admin Dashboard
+  setInquiries((prev) => [freshInquiry, ...prev]);
+
+  try {
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+
+      method: "POST",
+
+      headers: {
+        "Content-Type": "application/json",
+      },
+
+      body: JSON.stringify({
+
+        access_key: "9da2866d-e283-4569-9b6b-da4987c6b6bc",
+
+        subject: "New Admission Inquiry",
+
+        from_name: "Al Jisr Academy",
+
+        fullName: inqData.fullName,
+
+        email: inqData.email,
+
+        whatsappNumber: inqData.whatsappNumber,
+
+        ageGroup: inqData.ageGroup,
+
+        courseInterest: inqData.courseInterest,
+
+        classType: inqData.classType,
+
+        notes: inqData.notes
+
+      }),
+
+    });
+
+    const result = await response.json();
+
+    if (result.success) {
+      console.log("Email sent successfully");
+    } else {
+      console.error(result);
+    }
+
+  } catch (error) {
+    console.error(error);
+  }
+
+};
 
   // Reset to original defaults
   const handleResetToDefaults = () => {
