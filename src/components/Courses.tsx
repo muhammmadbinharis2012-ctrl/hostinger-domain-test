@@ -235,26 +235,20 @@ export default function Courses({ courses, activeCategory, onNavigateToEnroll }:
                     </div>
                   </div>
 
-                  {/* Pricing and Action Row */}
-                  <div className="flex items-center justify-between bg-gray-50 px-3.5 py-2.5 rounded-xl border border-gray-100">
-                    <div>
-                      <span className="text-[10px] text-gray-400 block uppercase font-mono tracking-wider">Tuition Fees</span>
-                      <span className="text-sm font-extrabold text-sky-600 font-mono">{course.price}</span>
-                    </div>
-                    <div className="flex gap-1.5">
-                      <button
-                        onClick={() => setModalCourse(course)}
-                        className="px-3 py-1.5 text-[10px] font-bold text-gray-700 border border-gray-200 bg-white hover:bg-gray-50 rounded-lg transition cursor-pointer"
-                      >
-                        Outcomes
-                      </button>
-                      <button
-                        onClick={() => onNavigateToEnroll(course.title)}
-                        className="px-3.5 py-1.5 text-[11px] font-bold text-white bg-sky-500 hover:bg-sky-600 rounded-lg transition shadow-sm cursor-pointer"
-                      >
-                        Enroll
-                      </button>
-                    </div>
+                  {/* Action Row */}
+                  <div className="flex gap-2 bg-gray-50 px-3 py-2.5 rounded-xl border border-gray-100">
+                    <button
+                      onClick={() => setModalCourse(course)}
+                      className="flex-1 py-1.5 text-[11px] font-bold text-gray-700 border border-gray-200 bg-white hover:bg-gray-50 rounded-lg transition cursor-pointer"
+                    >
+                      Outcomes
+                    </button>
+                    <button
+                      onClick={() => onNavigateToEnroll(course.title)}
+                      className="flex-1 py-1.5 text-[11px] font-bold text-white bg-sky-500 hover:bg-sky-600 rounded-lg transition shadow-sm cursor-pointer"
+                    >
+                      Enroll
+                    </button>
                   </div>
 
                 </div>
@@ -341,28 +335,22 @@ export default function Courses({ courses, activeCategory, onNavigateToEnroll }:
               </div>
 
               {/* Modal Footer actions */}
-              <div className="p-6 bg-gray-50 border-t border-gray-100 flex items-center justify-between">
-                <div>
-                  <span className="text-[10px] text-gray-400 block uppercase font-mono">FLAT MONTHLY RATE</span>
-                  <span className="text-lg font-extrabold text-sky-600 font-mono">{modalCourse.price}</span>
-                </div>
-                <div className="flex gap-2">
-                  <button
-                    onClick={() => setModalCourse(null)}
-                    className="px-4 py-2 text-xs font-bold text-gray-500 hover:bg-gray-100 rounded-xl transition"
-                  >
-                    Close
-                  </button>
-                  <button
-                    onClick={() => {
-                      onNavigateToEnroll(modalCourse.title);
-                      setModalCourse(null);
-                    }}
-                    className="px-6 py-2.5 bg-sky-500 hover:bg-sky-600 text-white font-bold rounded-xl text-xs transition shadow-md shadow-sky-500/10 cursor-pointer"
-                  >
-                    Book Free Trial
-                  </button>
-                </div>
+              <div className="p-6 bg-gray-50 border-t border-gray-100 flex items-center justify-end gap-3">
+                <button
+                  onClick={() => setModalCourse(null)}
+                  className="px-4 py-2 text-xs font-bold text-gray-500 hover:bg-gray-100 rounded-xl transition cursor-pointer"
+                >
+                  Close
+                </button>
+                <button
+                  onClick={() => {
+                    onNavigateToEnroll(modalCourse.title);
+                    setModalCourse(null);
+                  }}
+                  className="px-6 py-2.5 bg-sky-500 hover:bg-sky-600 text-white font-bold rounded-xl text-xs transition shadow-md shadow-sky-500/10 cursor-pointer"
+                >
+                  Enroll Now
+                </button>
               </div>
 
             </div>

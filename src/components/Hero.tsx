@@ -40,7 +40,7 @@ export default function Hero({ onNavigate }: HeroProps) {
 
             {/* Subheading */}
             <p className="max-w-2xl mx-auto text-base sm:text-lg text-gray-600 leading-relaxed font-sans">
-              Interactive live online classes tailored for children, teenagers, and adults globally. Connect 1-on-1 or in micro-groups with Certified Native Instructors who instill academic depth and core values.
+              Interactive live online classes tailored for children, teenagers, and adults worldwide. Connect through personalized 1-on-1 or small group sessions with qualified, experienced educators dedicated to delivering academic excellence and nurturing strong values.
             </p>
 
             {/* Dynamic Interactive Stats */}
@@ -50,28 +50,28 @@ export default function Hero({ onNavigate }: HeroProps) {
                   <Users className="w-5 h-5" />
                 </div>
                 <div className="text-center sm:text-left">
-                  <span className="block text-lg font-bold text-gray-900">500+</span>
-                  <span className="text-[11px] uppercase tracking-wider text-gray-400 font-semibold font-mono">Students</span>
+                  <span className="block text-lg font-bold text-gray-900">$10 / hr</span>
+                  <span className="text-[11px] uppercase tracking-wider text-gray-400 font-semibold font-mono">Group Class</span>
                 </div>
               </div>
               
               <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                 <div className="p-2.5 bg-sky-50 rounded-lg text-sky-500">
-                  <Award className="w-5 h-5" />
+                  <ShieldCheck className="w-5 h-5" />
                 </div>
                 <div className="text-center sm:text-left">
-                  <span className="block text-lg font-bold text-gray-900">100%</span>
-                  <span className="text-[11px] uppercase tracking-wider text-gray-400 font-semibold font-mono">Certified Tutors</span>
+                  <span className="block text-lg font-bold text-gray-900">$15 / hr</span>
+                  <span className="text-[11px] uppercase tracking-wider text-gray-400 font-semibold font-mono">One-to-One</span>
                 </div>
               </div>
 
               <div className="col-span-2 sm:col-span-1 flex flex-col sm:flex-row items-center justify-center gap-3">
                 <div className="p-2.5 bg-sky-50 rounded-lg text-sky-500">
-                  <ShieldCheck className="w-5 h-5" />
+                  <Globe className="w-5 h-5" />
                 </div>
                 <div className="text-center sm:text-left">
-                  <span className="block text-lg font-bold text-gray-900">Live</span>
-                  <span className="text-[11px] uppercase tracking-wider text-gray-400 font-semibold font-mono">1-on-1 Classes</span>
+                  <span className="block text-lg font-bold text-gray-900">100%</span>
+                  <span className="text-[11px] uppercase tracking-wider text-gray-400 font-semibold font-mono">Global Online</span>
                 </div>
               </div>
             </div>
@@ -98,9 +98,8 @@ export default function Hero({ onNavigate }: HeroProps) {
 
             {/* Trust Badges */}
             <div className="pt-2 text-xs text-gray-400 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 font-medium">
-              <span>✓ Certified Curriculum</span>
+              <span>✓ Tailored Learning Plans</span>
               <span>✓ Flexible Weekly Slots</span>
-              <span>✓ Native Arab & Western Educators</span>
             </div>
           </div>
 

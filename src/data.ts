@@ -18,7 +18,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Understand basic greeting protocols and greetings.',
       'Count numbers, list colors, and use simple daily vocabulary.'
     ],
-    duration: '6 Months',
+    duration: '12 Months',
     level: 'Beginner (A1)',
     ageGroup: 'All',
     price: '$65 / month',
@@ -35,7 +35,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Identify critical grammatical structures specific to Classical Arabic.',
       'Read and recite Quranic verses with direct semantic understanding.'
     ],
-    duration: '6 Months',
+    duration: '12 Months',
     level: 'Intermediate (B1)',
     ageGroup: 'All',
     price: '$75 / month',
@@ -69,7 +69,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Master proper stress, intonation, and native rhythms.',
       'Order food, book flights, and navigate Arab cities confidently.'
     ],
-    duration: '6 Months',
+    duration: '12 Months',
     level: 'Intermediate (B1-B2)',
     ageGroup: 'Adults',
     price: '$70 / month',
@@ -86,7 +86,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Construct complex phrases with conditional and emphasis formulas.',
       'Prevent common logical mistakes in formal speaking.'
     ],
-    duration: '6 Months',
+    duration: '12 Months',
     level: 'Advanced (C1)',
     ageGroup: 'Teenagers',
     price: '$80 / month',
@@ -120,7 +120,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Appreciate culturally specific jokes, proverbs, and idioms.',
       'Bridge the gap between Modern Standard Arabic and daily slang.'
     ],
-    duration: '6 Months',
+    duration: '12 Months',
     level: 'All Levels',
     ageGroup: 'Adults',
     price: '$65 / month',
@@ -137,7 +137,7 @@ export const DEFAULT_COURSES: Course[] = [
       'Differentiate between active and passive forms at high speeds.',
       'Prepare for standard global Arabic tests.'
     ],
-    duration: '6 Months',
+    duration: '12 Months',
     level: 'Beginner to Advanced',
     ageGroup: 'All',
     price: '$85 / month',
@@ -255,12 +255,12 @@ export const DEFAULT_TEACHERS: Teacher[] = [
     name: 'Muhammad Abdul Waheed Haris',
     photoUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400',
     qualifications: [
-      'MA in Arabic Language and Islamic Literature',
-      'Cambridge CELTA Certified English Instructor',
-      'Advanced Diploma in Bilingual Educational Leadership'
+      'Masters In English Linguistics Literature.',
+      'Masters in Islamic studies',
+      'Experienced Professional Language Learning Instructor'
     ],
     experience: '19 Years',
-    biography: 'A distinguished senior linguist and Academic Director with nearly two decades of pedagogical experience. Muhammad Abdul Waheed Haris specializes in dual-language cognitive integration, grammar architecture, and advanced executive bilingual coaching in Arabic and English.',
+    biography: 'This distinguished education professional with nearly two decades of experience in language instruction. Through a learner-centered philosophy and a commitment to educational excellence, he equips students with the linguistic proficiency, confidence, and critical thinking skills needed to excel academically and beyond.',
     specialties: ['Classical Arabic', 'Modern Standard Arabic', 'English Grammar', 'Public Speaking & Debate'],
     isActive: true
   },
@@ -296,7 +296,7 @@ export const DEFAULT_TEACHERS: Teacher[] = [
     photoUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400',
     qualifications: [
       'Masters in Islamic Studies & Arabic',
-      'Certified Online Quran and Arabic Educator',
+      'Qualified Arabic and Islamic Studies Teacher',
       'Expertise in Early Childhood language Acquisition'
     ],
     experience: '3 Years',
@@ -323,9 +323,7 @@ export const DEFAULT_TEACHERS: Teacher[] = [
     name: 'Muhammad Abdul Fattah',
     photoUrl: 'https://images.unsplash.com/photo-1620121692029-d088224ddc74?auto=format&fit=crop&q=80&w=400',
     qualifications: [
-      'BA in Bilingual Education (English & Arabic)',
-      'Certified TESOL Language Instructor',
-      'Diploma in Semitic Lexicology'
+      'B.A in Islamic Studies and Arabic'
     ],
     experience: '1 Year',
     biography: 'Bringing fresh perspective and dynamic modern teaching methodologies, Teacher Muhammad Abdul Fattah supports bilingual reading and conversational fluency in both English and Arabic. His classes utilize custom worksheets and creative visual slides.',

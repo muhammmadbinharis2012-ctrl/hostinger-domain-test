@@ -126,7 +126,7 @@ export default function Footer({ onNavigate, onOpenAdmin }: FooterProps) {
             <ul className="space-y-3 text-xs text-gray-400 font-medium">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-sky-400 flex-shrink-0" />
-                <span>London Office: High Holborn Road, London, WC1V 7EG, United Kingdom</span>
+                <span>C-341, Sector 1, Ahsanabad, Karachi, Pakistan</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-sky-400 flex-shrink-0" />
